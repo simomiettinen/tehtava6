@@ -1,0 +1,19 @@
+CREATE OR REPLACE DATABASE urheilija2;
+USE urheilija2;
+
+CREATE OR REPLACE TABLE urheilija
+(
+  ID int NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (ID),
+  Etunimi VARCHAR(30),
+  Sukunimi VARCHAR(30),
+  Kutsumanimi VARCHAR(30),
+  Syntymavuosi YEAR,
+  Paino FLOAT,
+  linkki_kuvaan VARCHAR(50),
+  Laji VARCHAR(30),
+  Saavutukset VARCHAR(100)
+);
+
+CREATE USER 'user2'@'localhost' IDENTIFIED BY 'password';
+GRANT SELECT, INSERT, UPDATE, DELETE ON urheilija TO 'user2'@'localhost';
