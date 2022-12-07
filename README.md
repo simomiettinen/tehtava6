@@ -1,1 +1,1 @@
-
+web ohjelmointi tehtävä 6. tässä on nyt samassa koko hoito. en jaksa taistella gitin kanssa enempää joten toimii tai on toimimatta. omissa teisteissä käyttöliittymästä näkee tietokannan tiedot ja käyttöliittymästä voi lisätä. en jaksanu/ehtiny tehä poistoa ja päivitystä
