@@ -1,1 +1,1 @@
-tehtävä 6 tietokannan hallinta tuolla /src/components pystyy vain lisäämään ja tarkastelemaan
+tehtävä 6 käyttöliittymä hommat. /src/components pystyy vain lisäämään ja tarkastelemaan
